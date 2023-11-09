@@ -1,0 +1,82 @@
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    height: 500vh;
+    padding: 10px 40px;
+    margin: 200px 200px;
+    z-index: 1000;
+}
+.about-text{
+    flex: 2;
+}
+.about-container .about-text h1{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1px;
+}
+.about-container .about-text h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1px;
+}
+.about-container .about-text span{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #b22222;
+    margin-bottom: 5px;
+}
+.about-container .about-text p{
+    color: #292929;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.about-container .about-text button{
+    width: 35%;
+    height: 5vh;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.about-container .about-text .btn{
+    background: #b22222;
+    color: #fffafa;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-image{
+    flex: 1.5;
+    display: flex;
+    gap: 2rem;
+}
+.about-image .left-img{
+    height: 35vh;
+    border: 5px solid #b22222;
+    border-radius: 0 0 0 2rem;
+}
+.about-image .left-img img{
+    top: 2px;
+    width: 110%;
+    height: 35vh;
+    border: 2px solid #b22222;
+    border-radius: 0 0 0 2rem;
+}
+@media (max-width: 360px){
+    .about-container{
+        display: block;
+        left: 0;
+        margin: 0;
+    }
+    .about-image{
+        display: block;
+        width: 90%;
+        margin-top: 2rem;
+    }
+    .right-img{
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+}

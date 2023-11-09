@@ -1,0 +1,89 @@
+.home{
+    display: flex;
+    justify-content: space-around;
+    padding: 90px 40px;
+    margin: 100px 100px;
+    gap: 5rem;
+}
+.main-menu{
+    flex: 3;
+}
+.main-menu h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #b22222;
+    margin-bottom: 10px;
+}
+.main-menu p{
+    background: #bebcbc;
+    color: #000;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: 500;
+}
+.main-menu p:hover{
+   border: 2px solid #000;
+}
+.main-menu .read{
+    font-size: 20px;
+    font-weight: 600;
+    color: #b22222;
+}
+.main-menu .shopping{
+    font-size: 5rem;
+     color: #b22222;
+     display: flex;
+     justify-content: center;
+}
+.main-menu h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #000;
+    padding: 10px;
+    background-color: #bebcbc;
+}
+.main-menu h1:hover{
+    border: 2px solid #000;
+}
+.side-picture{
+    flex: 1;
+}
+.side-picture h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #b22222;
+    margin-bottom: 10px;
+}
+.side-picture p{
+    background: #bebcbc;
+    color: #000;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: 500;
+}
+.side-picture p:hover{
+    border: 2px solid #000;
+}
+.side-picture img{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 2rem;
+}
+hr{
+    background-color: #bebcbc;
+    border: none;
+    padding: 2px;
+}
+.img h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+@media (max-width: 360px){
+    .home{
+        display: block;
+        margin: 0;
+    }
+}
