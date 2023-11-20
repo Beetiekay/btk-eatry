@@ -1,0 +1,9 @@
+.footer-content{
+    /* background: #b22222; */
+    height: 2.5vh;
+    color: #686767;
+    text-align: center;
+}
+.footer-content footer{
+    font-size: 14px;
+}

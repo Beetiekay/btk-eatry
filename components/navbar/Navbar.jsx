@@ -8,7 +8,7 @@ const Navbar = () =>{
     return(
       <>
         <div className="nav-bar">
-          <div className="logo-header"><img src={logo}/> <h2><span>Bs</span>-restaurant</h2>
+          <div className="logo-header"><img src={logo}/> <h2><span>Btk</span>-eatery</h2>
        </div>
             <div className="link">
              <a href="#"><AiFillApple/></a>               
@@ -19,8 +19,8 @@ const Navbar = () =>{
 
               <span className="menu">
               <a href="#">Home</a>
-              <a href="#">Emails</a>
               <a href="#">Gallery</a>
+              <a href="#">Emails</a>
               <a href="#">About</a>
         <label For="check" className="close-menu"><AiOutlineClose/></label>
       </span>

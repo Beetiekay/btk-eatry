@@ -1,5 +1,9 @@
 import About from "../components/about/About";
+import Best from "../components/best/Best";
+import Contact from "../components/contact/Contact";
+import Footer from "../components/footer/Footer";
 import Home from "../components/home/Home";
+import Menu from "../components/menu/Menu";
 import Navbar from "../components/navbar/Navbar";
 
 
@@ -9,7 +13,10 @@ const App = () =>{
     <Navbar/>
     <Home/>
     <About/>
-
+    <Menu/>
+    <Best/>
+    <Contact/>
+    <Footer/>
     </>
   )
 };
